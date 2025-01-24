@@ -1,4 +1,3 @@
-
 import { useTheme } from './ThemeProvider';
 import { Sun, Moon } from 'lucide-react';
 
@@ -10,27 +9,46 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-          <img src="./assets/apple-touch-icon.png" alt="/logo" className="h-[50px] w-[50px]" />
-
-            <div>
-              <div className="font-bold text-xl text-gray-900 dark:text-white">Echelon Dev Society </div>
-              <div className="text-gray-700 dark:text-gray-300">Hackathon Club of CDGI</div>
+            <img
+              src="./assets/apple-touch-icon.png"
+              alt="/logo"
+              className="h-[50px] w-[50px]"
+            />
+            <div className="hidden sm:block">
+              <div className="font-bold text-xl text-gray-900 dark:text-white">
+                Echelon Dev Society
+              </div>
+              <div className="text-gray-700 dark:text-gray-300">
+                Hackathon Club of CDGI
+              </div>
             </div>
           </div>
-         
-          
           <div className="flex items-center space-x-8">
-            <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">About</a>
-            <a href="#events" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">Events</a>
-            <a href="#team" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">Team</a>
+            <a
+              href="#about"
+              className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+            >
+              About
+            </a>
+            <a
+              href="#events"
+              className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+            >
+              Events
+            </a>
+            <a
+              href="#team"
+              className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+            >
+              Team
+            </a>
             <button
-              onClick={(toggleTheme)}
+              onClick={toggleTheme}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
             >
               {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
             </button>
           </div>
-         
         </div>
       </div>
     </nav>
