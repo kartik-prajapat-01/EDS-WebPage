@@ -10,7 +10,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <img src="eds.ico" alt="/logo " />
+          <img src="./assets/apple-touch-icon.png" alt="/logo" className="h-[50px] w-[50px]" />
+
             <div>
               <div className="font-bold text-xl text-gray-900 dark:text-white">Echelon Dev Society </div>
               <div className="text-gray-700 dark:text-gray-300">Hackathon Club of CDGI</div>

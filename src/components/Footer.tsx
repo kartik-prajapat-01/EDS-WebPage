@@ -8,7 +8,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-            <img src="eds.ico" alt="/logo " />
+            <img src="./assets/apple-touch-icon.png" alt="/logo" className="h-[50px] w-[50px]" />
+
               <div>
               <div className="text-xl font-bold text-white">Echelon Dev Society </div>
               <div className="text-s  text-gray-400">Hackathon Club of CDGI</div>
