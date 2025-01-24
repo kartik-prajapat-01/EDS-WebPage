@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-            <img src="EDs.ico" alt="/logo " />
+            <img src="eds.ico" alt="/logo " />
               <div>
               <div className="text-xl font-bold text-white">Echelon Dev Society </div>
               <div className="text-s  text-gray-400">Hackathon Club of CDGI</div>
@@ -41,7 +41,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-indigo-400" />
-                <span>CDGI, LAB-109</span>
+                <span>CDGI, Indore</span>
               </li>
             </ul>
           </div>

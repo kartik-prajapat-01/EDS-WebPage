@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 const team = [
   {
-    name: "Sarah Johnson",
+    name: "Aniruddh Dubge",
     role: "President",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
     github: "#",
@@ -11,7 +11,7 @@ const team = [
     email: "#"
   },
   {
-    name: "Michael Chen",
+    name: "Jigyarth Sharma",
     role: "Technical Lead",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400",
     github: "#",
@@ -19,7 +19,7 @@ const team = [
     email: "#"
   },
   {
-    name: "Emily Rodriguez",
+    name: "Atharva Raj Thakur",
     role: "Events Coordinator",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400",
     github: "#",
@@ -27,7 +27,7 @@ const team = [
     email: "#"
   },
   {
-    name: "David Kim",
+    name: "Atharva Raj Thakur",
     role: "Development Lead",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400",
     github: "#",

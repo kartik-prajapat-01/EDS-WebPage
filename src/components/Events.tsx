@@ -2,8 +2,8 @@
 
 const events = [
   {
-    title: "Annual Hackathon 2025",
-    date: "March 15-16, 2025",
+    title: "Hackwave Hackathon 2024",
+    date: "March 15-16, 2024",
     image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=800",
     description: "48-hour coding challenge to build innovative solutions"
   },
